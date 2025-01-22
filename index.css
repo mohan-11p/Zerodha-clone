@@ -1,0 +1,584 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+}
+
+.viewport {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.navBar {
+    height: 70px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.055) 0px 1px 2px;
+    position: fixed;
+    top: 0;
+}
+
+.logo {
+    height: 100%;
+    width: 20%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    height: 25%;
+
+}
+
+.menu {
+    height: 100%;
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.menus {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    font-size: 14px;
+    color: #666666;
+}
+
+.menus ul li:hover {
+    color: #387ED1;
+    cursor: pointer;
+}
+
+
+
+
+
+.mainimg {
+    height: 500px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.mainimg img {
+    height: 400px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.description h1 {
+    font-size: 43px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.781);
+    ;
+}
+
+.description p {
+    font-size: 17px;
+    color: rgb(48, 47, 47);
+}
+
+.btn {
+    height: 34px;
+    width: 150px;
+    background-color: #387ED1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+.content {
+    height: 580px;
+    width: 100%;
+    margin-top: 75px;
+    display: flex;
+    gap: 100px;
+}
+
+.service {
+    height: 100%;
+    width: 23%;
+    margin-left: 200px;
+}
+
+.service h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #424242;
+    font-weight: 400;
+
+}
+
+.service h3 {
+    font-size: 17px;
+    line-height: 2;
+    margin-top: 20px;
+    color: #424242;
+    font-weight: 500;
+
+}
+
+.service p {
+    font-size: 12px;
+    color: #666666;
+    line-height: 1.8;
+}
+
+
+
+
+
+.serviceImg {
+    height: 500px;
+    width: 500px;
+    background-color: rgb(254, 255, 255);
+
+}
+
+.serviceImg img {
+    height: 500px;
+
+}
+
+.elements {
+    height: 30px;
+    width: 400px;
+    /* background-color: rgb(238, 238, 155); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.explore {
+    height: 30px;
+    width: 170px;
+    font-size: 13px;
+    color: #387ED1;
+    /* background-color: rgb(137, 175, 175); */
+}
+
+.demo {
+    height: 30px;
+    width: 150px;
+    font-size: 13px;
+    color: #387ED1;
+    /* background-color: rgb(89, 128, 128); */
+}
+
+.explore:hover {
+    color: #424242;
+    cursor: pointer;
+
+}
+
+.demo:hover {
+    color: #424242;
+    cursor: pointer;
+}
+
+.presslogo {
+    height: 40px;
+    width: 630px;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+
+.presslogo img {
+    height: 90%;
+    width: 100%;
+}
+
+.priceBox {
+    height: 200px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    margin-top: 90px;
+
+}
+
+.pricing {
+    height: 100%;
+    width: 30%;
+    margin-left: 200px;
+
+}
+
+.pricing h2 {
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.pricing p {
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.see {
+    margin-top: 15px;
+    color: #387ED1;
+}
+
+.see:hover {
+    color: #424242;
+    cursor: pointer;
+}
+
+.acc {
+    height: 100%;
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    gap: 30px;
+}
+
+.img1 {
+    display: flex;
+}
+
+.img1 img {
+    height: 40%;
+
+}
+
+.img1 p {
+    font-size: 8px;
+    margin-top: 40px;
+    padding-left: 0.2px;
+}
+
+.img2 {
+    display: flex;
+}
+
+.img2 img {
+    height: 40%;
+
+}
+
+.img2 p {
+    font-size: 8px;
+    margin-top: 40px;
+    padding-left: 0.2px;
+}
+
+.img3 {
+    display: flex;
+}
+
+.img3 img {
+    height: 40%;
+
+}
+
+.img3 p {
+    font-size: 8px;
+    margin-top: 40px;
+    padding-left: 0.2px;
+}
+
+.varsity {
+    height: 250px;
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 200px;
+    display: flex;
+}
+
+.varimg {
+    height: 100%;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.varimg img {
+    height: 200px;
+}
+
+.textt {
+    height: 100%;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+
+}
+
+.textt h2 {
+    font-weight: 500;
+    margin-top: 20px;
+
+}
+
+.textt p {
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.var {
+    line-height: 1.3;
+    color: #387ED1;
+}
+
+.var:hover {
+    color: #424242;
+    cursor: pointer;
+}
+
+.openac {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.openac h3 {
+
+    font-size: 25px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.884);
+    ;
+}
+
+.openac p {
+    font-size: 14px;
+    color: #424242;
+}
+
+.btn {
+    height: 33px;
+    width: 150px;
+    background-color: #387ED1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: white;
+    margin-top: 20px;
+}
+
+.footer {
+    height: 350px;
+    width: 100%;
+    margin-top: 30px;
+    background-color: #fbfbfb;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.page {
+    height: 500px;
+    width: 100%;
+    background-color: #fbfbfb;
+    display: flex;
+
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.box1 {
+    height: 60%;
+    width: 16%;
+
+    padding: 10px;
+}
+
+.box1 img {
+    height: 18px;
+
+}
+
+.box1 p {
+    font-size: 11px;
+    margin-top: 10px;
+    color: #666666;
+}
+
+hr {
+    color: #fffdfd;
+}
+
+.box1 ul {
+    color: #424242;
+    line-height: 2.8;
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+
+
+}
+
+.box1 ul li {
+
+    color: #424242;
+
+}
+
+.box1 ul li:hover {
+    color: #387ED1;
+    cursor: pointer;
+}
+
+
+.box2 {
+    height: 80%;
+    width: 18%;
+
+
+    padding: 10px;
+}
+
+.box2 p {
+    font-weight: 200;
+}
+
+.box2 ul {
+    font-size: 13px;
+    margin-top: 10px;
+    line-height: 2;
+    color: #424242;
+}
+
+.box2 ul li:hover {
+    color: #387ED1;
+    cursor: pointer;
+}
+
+.box3 {
+    height: 80%;
+    width: 18%;
+
+
+    padding: 10px;
+}
+
+.box3 p {
+    font-weight: 200;
+}
+
+.box3 ul {
+    font-size: 13px;
+    margin-top: 10px;
+    line-height: 2;
+    color: #424242;
+}
+
+.box3 ul li:hover {
+    color: #387ED1;
+    cursor: pointer;
+}
+
+.box4 {
+    height: 80%;
+    width: 18%;
+
+
+    padding: 10px;
+}
+
+.box4 p {
+    font-weight: 200;
+}
+
+.box4 ul {
+    font-size: 13px;
+    margin-top: 10px;
+    line-height: 2;
+    color: #424242;
+}
+
+.box4 ul li:hover {
+    color: #387ED1;
+    cursor: pointer;
+}
+
+.policies {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.policies ul {
+    display: flex;
+    gap: 20px;
+    font-size: 10px;
+    color: #918f8f;
+}
+
+.policies ul li:hover {
+    color: #387ED1;
+    cursor: pointer;
+}
+
+.div {
+    height: 340px;
+    width: 100%;
+    background-color: #fdfdfd;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.para {
+    height: 250px;
+    width: 74%;
+    background-color: #fffefe;
+    color: #b3b3b3;
+    font-size: 9px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5;
+}
+.mo:hover{
+    color: #424242;
+    cursor: pointer;
+}
+.mo{
+    color: #387ED1;
+}
